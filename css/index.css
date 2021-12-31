@@ -43,11 +43,15 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
+  background-image: url("../imgs/languagePicture.jpeg");
+  background-size: cover;
+  background-position: center center;
 }
 
 .content-container {
   border-top: solid black 2px;
   border-bottom: solid black 2px;
+
 }
 
 .content {
