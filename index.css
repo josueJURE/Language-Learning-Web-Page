@@ -1,5 +1,21 @@
 
-h1 h2 {
+body {
+  background-color:#ffe6e6;
+}
+
+h1 {
+  border: solid black 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+h2 {
+  border: solid black 2px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
   text-align: center;
 }
 
@@ -21,9 +37,12 @@ footer {
 }
 
 .container {
+  background-color: #ff4d4d;
   max-width: 940px;
+  margin: auto;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
 }
 
 .content-container {
@@ -34,6 +53,8 @@ footer {
 .content {
   width: 66%;
   float: left;
+  padding: 15px;
+  box-sizing: border-box;
 }
 
 .group:before,
@@ -53,4 +74,6 @@ footer {
 .aside-content {
   width: 34%;
   float: left;
+  padding: 15px;
+  box-sizing: border-box;
 }
