@@ -1,15 +1,11 @@
 
 html {
-
   background-image: url("../imgs/languagePicture.jpeg");
   background-size: cover;
   background-position: center center;
-
 }
 
 body {
-
-
 }
 
 h1 {
@@ -28,6 +24,7 @@ h2 {
   text-align: center;
 }
 
+
 ul {
   display: flex;
   flex-direction: row;
@@ -38,7 +35,6 @@ ul {
 li {
   border: solid black 2px;
   padding: 15px 20px;
-
 }
 
 li:hover {
@@ -101,5 +97,20 @@ footer {
     width: auto;
     float: none;
   }
+}
 
+@media screen and (max-width:300px) {
+  .container {
+    margin-top: 25px;
+  }
+  .aside-content {
+    background: linear-gradient(to left, blue, white)
+  }
+  footer,
+  h2 {
+    display: none;
+  }
+  li {
+    width: 33%;
+  }
 }
