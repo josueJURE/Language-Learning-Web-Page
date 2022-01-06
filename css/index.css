@@ -59,14 +59,15 @@ footer {
 .content-container {
   border-top: solid black 2px;
   border-bottom: solid black 2px;
-
+  display: flex;
 }
 
 .content {
   background: linear-gradient(#e66465, #9198e5);
   box-sizing: border-box;
-  width: 66%;
-  float: left;
+  /* width: 66%;
+  float: left; */
+  flex: 1;
   padding: 15px;
 
 }
@@ -86,8 +87,9 @@ footer {
 }
 
 .aside-content {
-  width: 34%;
-  float: left;
+  /* width: 34%;
+  float: left; */
+  flex: 1;
   padding: 15px;
   box-sizing: border-box;
   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
