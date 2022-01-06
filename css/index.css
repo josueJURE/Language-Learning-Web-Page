@@ -65,30 +65,12 @@ footer {
 .content {
   background: linear-gradient(#e66465, #9198e5);
   box-sizing: border-box;
-  /* width: 66%;
-  float: left; */
-  flex: 1;
+  flex: 2;
   padding: 15px;
 
 }
 
-.group:before,
-.group:after {
-  content: "";
-  display:table;
-}
-
-.group:after {
-  clear:both;
-}
-
-.group {
-  zoom: 1;
-}
-
 .aside-content {
-  /* width: 34%;
-  float: left; */
   flex: 1;
   padding: 15px;
   box-sizing: border-box;
