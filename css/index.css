@@ -47,6 +47,7 @@ li {
 
 li:hover {
   background-color:#808080;
+  transform: skewX(10deg);
 }
 
 footer {
@@ -66,6 +67,7 @@ footer {
   border: solid black 2px;
   border-radius: 50px/25px;
   display: flex;
+  overflow: hidden;
 }
 
 .content {
