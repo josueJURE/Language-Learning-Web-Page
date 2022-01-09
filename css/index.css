@@ -10,8 +10,7 @@ body {
 }
 
 h1 {
-  animation-name: example;
-  animation-duration: 2s;
+  animation: example 5s 3 alternate-reverse ease-in-out backwards;
   border: solid black 2px;
   border-radius: 10px 15px 50px 10px;
   box-shadow: 5px 5px;
@@ -22,8 +21,11 @@ h1 {
 }
 
 @keyframes example {
-  from {background-color: blue};
-  to {background-color: red};
+  0% {background-color: blue};
+  25% {background-color: red};
+  50% {background-color: green}
+  75% {background-color: yellow};
+  100% {background-color: pink};
 }
 
 h2 {
