@@ -10,6 +10,8 @@ body {
 }
 
 h1 {
+  animation-name: example;
+  animation-duration: 2s;
   border: solid black 2px;
   border-radius: 10px 15px 50px 10px;
   box-shadow: 5px 5px;
@@ -17,6 +19,11 @@ h1 {
   margin-right: auto;
   width: 50%;
   text-align: center;
+}
+
+@keyframes example {
+  from {background-color: blue};
+  to {background-color: red};
 }
 
 h2 {
@@ -51,8 +58,11 @@ li:hover {
 }
 
 footer {
+
+  animation-duration: 2s;
   text-align: center;
   align-self: flex-end;
+
 }
 
 .container {
@@ -93,21 +103,5 @@ footer {
   .content {
     width: auto;
     float: none;
-  }
-}
-
-@media screen and (max-width:300px) {
-  .container {
-    margin-top: 25px;
-  }
-  .aside-content {
-    background: linear-gradient(to left, blue, white)
-  }
-  footer,
-  h2 {
-    display: none;
-  }
-  li {
-    width: 33%;
   }
 }
