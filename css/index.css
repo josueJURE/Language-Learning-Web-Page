@@ -18,6 +18,7 @@ h1 {
   margin-right: auto;
   width: 50%;
   text-align: center;
+  word-wrap: break-word;
 }
 
 @keyframes example {
@@ -36,6 +37,7 @@ h2 {
   margin-right: auto;
   width: 50%;
   text-align: center;
+  word-wrap: break-word;
 }
 
 
